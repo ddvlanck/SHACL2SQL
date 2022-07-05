@@ -1,0 +1,27 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "target": "es2020",
+    "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "declaration": true,
+    "importHelpers": false,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "lib/**/*.ts",
+    "bin/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

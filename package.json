@@ -1,0 +1,42 @@
+{
+  "name": "shacl2sql.js",
+  "version": "0.0.0",
+  "description": "Converts a SHACL shape to SQL statements to create a table",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddvlanck/SHACL2SQL.git"
+  },
+  "keywords": [
+    "shacl",
+    "sql",
+    "converting",
+    "linked",
+    "data"
+  ],
+  "author": "Dwight Van Lancker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddvlanck/SHACL2SQL/issues"
+  },
+  "homepage": "https://github.com/ddvlanck/SHACL2SQL#readme",
+  "dependencies": {
+    "n3": "^1.16.2",
+    "node-fetch": "^2.6.7",
+    "rdf-data-factory": "^1.1.0",
+    "rdf-dereference": "^2.0.0",
+    "rdf-store-stream": "^1.3.0",
+    "typescript": "^4.7.4",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@rdfjs/types": "^1.1.0",
+    "@types/yargs": "^17.0.10"
+  }
+}
